@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28C47F42122EC3100D63B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C47F32122EC3100D63B58 /* AppDelegate.swift */; };
+		E28C47F62122EC3100D63B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C47F52122EC3100D63B58 /* ViewController.swift */; };
+		E28C47F92122EC3100D63B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28C47F72122EC3100D63B58 /* Main.storyboard */; };
+		E28C47FC2122EC3100D63B58 /* Espoir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E28C47FA2122EC3100D63B58 /* Espoir.xcdatamodeld */; };
+		E28C47FE2122EC3500D63B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28C47FD2122EC3500D63B58 /* Assets.xcassets */; };
+		E28C48012122EC3500D63B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28C47FF2122EC3500D63B58 /* LaunchScreen.storyboard */; };
+		E28C480C2122EC3500D63B58 /* EspoirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C480B2122EC3500D63B58 /* EspoirTests.swift */; };
+		E28C48172122EC3500D63B58 /* EspoirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C48162122EC3500D63B58 /* EspoirUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28C48082122EC3500D63B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28C47E82122EC3100D63B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28C47EF2122EC3100D63B58;
+			remoteInfo = Espoir;
+		};
+		E28C48132122EC3500D63B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28C47E82122EC3100D63B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28C47EF2122EC3100D63B58;
+			remoteInfo = Espoir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28C47F02122EC3100D63B58 /* Espoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Espoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28C47F32122EC3100D63B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E28C47F52122EC3100D63B58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E28C47F82122EC3100D63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28C47FB2122EC3100D63B58 /* Espoir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Espoir.xcdatamodel; sourceTree = "<group>"; };
+		E28C47FD2122EC3500D63B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28C48002122EC3500D63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E28C48022122EC3500D63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28C48072122EC3500D63B58 /* EspoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EspoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28C480B2122EC3500D63B58 /* EspoirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspoirTests.swift; sourceTree = "<group>"; };
+		E28C480D2122EC3500D63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28C48122122EC3500D63B58 /* EspoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EspoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28C48162122EC3500D63B58 /* EspoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspoirUITests.swift; sourceTree = "<group>"; };
+		E28C48182122EC3500D63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28C47ED2122EC3100D63B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28C48042122EC3500D63B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28C480F2122EC3500D63B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28C47E72122EC3100D63B58 = {
+			isa = PBXGroup;
+			children = (
+				E28C47F22122EC3100D63B58 /* Espoir */,
+				E28C480A2122EC3500D63B58 /* EspoirTests */,
+				E28C48152122EC3500D63B58 /* EspoirUITests */,
+				E28C47F12122EC3100D63B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28C47F12122EC3100D63B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28C47F02122EC3100D63B58 /* Espoir.app */,
+				E28C48072122EC3500D63B58 /* EspoirTests.xctest */,
+				E28C48122122EC3500D63B58 /* EspoirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28C47F22122EC3100D63B58 /* Espoir */ = {
+			isa = PBXGroup;
+			children = (
+				E28C47F32122EC3100D63B58 /* AppDelegate.swift */,
+				E28C47F52122EC3100D63B58 /* ViewController.swift */,
+				E28C47F72122EC3100D63B58 /* Main.storyboard */,
+				E28C47FD2122EC3500D63B58 /* Assets.xcassets */,
+				E28C47FF2122EC3500D63B58 /* LaunchScreen.storyboard */,
+				E28C48022122EC3500D63B58 /* Info.plist */,
+				E28C47FA2122EC3100D63B58 /* Espoir.xcdatamodeld */,
+			);
+			path = Espoir;
+			sourceTree = "<group>";
+		};
+		E28C480A2122EC3500D63B58 /* EspoirTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28C480B2122EC3500D63B58 /* EspoirTests.swift */,
+				E28C480D2122EC3500D63B58 /* Info.plist */,
+			);
+			path = EspoirTests;
+			sourceTree = "<group>";
+		};
+		E28C48152122EC3500D63B58 /* EspoirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28C48162122EC3500D63B58 /* EspoirUITests.swift */,
+				E28C48182122EC3500D63B58 /* Info.plist */,
+			);
+			path = EspoirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28C47EF2122EC3100D63B58 /* Espoir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28C481B2122EC3500D63B58 /* Build configuration list for PBXNativeTarget "Espoir" */;
+			buildPhases = (
+				E28C47EC2122EC3100D63B58 /* Sources */,
+				E28C47ED2122EC3100D63B58 /* Frameworks */,
+				E28C47EE2122EC3100D63B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Espoir;
+			productName = Espoir;
+			productReference = E28C47F02122EC3100D63B58 /* Espoir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28C48062122EC3500D63B58 /* EspoirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28C481E2122EC3500D63B58 /* Build configuration list for PBXNativeTarget "EspoirTests" */;
+			buildPhases = (
+				E28C48032122EC3500D63B58 /* Sources */,
+				E28C48042122EC3500D63B58 /* Frameworks */,
+				E28C48052122EC3500D63B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28C48092122EC3500D63B58 /* PBXTargetDependency */,
+			);
+			name = EspoirTests;
+			productName = EspoirTests;
+			productReference = E28C48072122EC3500D63B58 /* EspoirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28C48112122EC3500D63B58 /* EspoirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28C48212122EC3500D63B58 /* Build configuration list for PBXNativeTarget "EspoirUITests" */;
+			buildPhases = (
+				E28C480E2122EC3500D63B58 /* Sources */,
+				E28C480F2122EC3500D63B58 /* Frameworks */,
+				E28C48102122EC3500D63B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28C48142122EC3500D63B58 /* PBXTargetDependency */,
+			);
+			name = EspoirUITests;
+			productName = EspoirUITests;
+			productReference = E28C48122122EC3500D63B58 /* EspoirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28C47E82122EC3100D63B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ahmed Derbala";
+				TargetAttributes = {
+					E28C47EF2122EC3100D63B58 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E28C48062122EC3500D63B58 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E28C47EF2122EC3100D63B58;
+					};
+					E28C48112122EC3500D63B58 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E28C47EF2122EC3100D63B58;
+					};
+				};
+			};
+			buildConfigurationList = E28C47EB2122EC3100D63B58 /* Build configuration list for PBXProject "Espoir" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E28C47E72122EC3100D63B58;
+			productRefGroup = E28C47F12122EC3100D63B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28C47EF2122EC3100D63B58 /* Espoir */,
+				E28C48062122EC3500D63B58 /* EspoirTests */,
+				E28C48112122EC3500D63B58 /* EspoirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28C47EE2122EC3100D63B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28C48012122EC3500D63B58 /* LaunchScreen.storyboard in Resources */,
+				E28C47FE2122EC3500D63B58 /* Assets.xcassets in Resources */,
+				E28C47F92122EC3100D63B58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28C48052122EC3500D63B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28C48102122EC3500D63B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28C47EC2122EC3100D63B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28C47FC2122EC3100D63B58 /* Espoir.xcdatamodeld in Sources */,
+				E28C47F62122EC3100D63B58 /* ViewController.swift in Sources */,
+				E28C47F42122EC3100D63B58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28C48032122EC3500D63B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28C480C2122EC3500D63B58 /* EspoirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28C480E2122EC3500D63B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28C48172122EC3500D63B58 /* EspoirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28C48092122EC3500D63B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28C47EF2122EC3100D63B58 /* Espoir */;
+			targetProxy = E28C48082122EC3500D63B58 /* PBXContainerItemProxy */;
+		};
+		E28C48142122EC3500D63B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28C47EF2122EC3100D63B58 /* Espoir */;
+			targetProxy = E28C48132122EC3500D63B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E28C47F72122EC3100D63B58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28C47F82122EC3100D63B58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28C47FF2122EC3500D63B58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28C48002122EC3500D63B58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E28C48192122EC3500D63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E28C481A2122EC3500D63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28C481C2122EC3500D63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Espoir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedderbala.Espoir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28C481D2122EC3500D63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Espoir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedderbala.Espoir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E28C481F2122EC3500D63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EspoirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedderbala.EspoirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Espoir.app/Espoir";
+			};
+			name = Debug;
+		};
+		E28C48202122EC3500D63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EspoirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedderbala.EspoirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Espoir.app/Espoir";
+			};
+			name = Release;
+		};
+		E28C48222122EC3500D63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EspoirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedderbala.EspoirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Espoir;
+			};
+			name = Debug;
+		};
+		E28C48232122EC3500D63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EspoirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedderbala.EspoirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Espoir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28C47EB2122EC3100D63B58 /* Build configuration list for PBXProject "Espoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28C48192122EC3500D63B58 /* Debug */,
+				E28C481A2122EC3500D63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28C481B2122EC3500D63B58 /* Build configuration list for PBXNativeTarget "Espoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28C481C2122EC3500D63B58 /* Debug */,
+				E28C481D2122EC3500D63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28C481E2122EC3500D63B58 /* Build configuration list for PBXNativeTarget "EspoirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28C481F2122EC3500D63B58 /* Debug */,
+				E28C48202122EC3500D63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28C48212122EC3500D63B58 /* Build configuration list for PBXNativeTarget "EspoirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28C48222122EC3500D63B58 /* Debug */,
+				E28C48232122EC3500D63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E28C47FA2122EC3100D63B58 /* Espoir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E28C47FB2122EC3100D63B58 /* Espoir.xcdatamodel */,
+			);
+			currentVersion = E28C47FB2122EC3100D63B58 /* Espoir.xcdatamodel */;
+			path = Espoir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E28C47E82122EC3100D63B58 /* Project object */;
+}
